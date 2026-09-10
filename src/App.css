@@ -1,14 +1,97 @@
-.{box-sizing:border-box;}
-body {margin:0;font-family:"Helvetica Neue",Arial,sans-serif;background:#14100f;colour;#f2ece2;}
-button {font:inherit;}
-.home-screen {min-height:100vh;display:flex; justify-content:flex-start; align-items:center;padding-left:8vw;}
-.homecontenth1 {width:90%; max-widht:560px;text-align:left;}
-.home-contenth1 {font-family:Georgia,"lowan Old Style"serif;font-size:52px;font-weight:400;line-height:1.05;margin:0018px;letter-spacing:-0.5px;}
-.home-description {color:#a89984; font-size:17px;line-height:1.5;max-weight:40ch;}
-.planner {margin-tops:34px;padding:28px;background:#1c1614;border:1px solid #3a2f28;border-left:3px solid #e0a339;}
-.choice-row {display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid #3a2f28;paddding-bottom:0;}
-.choice{padding:10px 16px;background:transparent;font-family:"SF Mono","Courier New",monospace;font-size:14px;cursor:pointer;transtition:color 0.15s ease,border-color0.15s ease;}
-.choice:hover{color:#f2ece2;}
-.choice.active{background:transparent;color:#e0a339;border-bottom:2px solid #e0a339;}
-.launch-button {width:100%;margin-top:28px;padding:16px;background:#e0a339;color:#14100f;border:none;font-weight:600;cursor:pointer;transition:background 0.15s ease;}
-.launch-button:hover{background:#f0b652;}
+css
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #14100f;
+  color: #f2ece2;
+}
+
+button {
+  font: inherit;
+}
+
+.home-screen {
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 8vw;
+}
+
+.home-content {
+  width: 90%;
+  max-width: 560px;
+  text-align: left;
+}
+
+.home-content h1 {
+  font-family: Georgia, "Iowan Old Style", serif;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.05;
+  margin: 0 0 18px;
+  letter-spacing: -0.5px;
+}
+
+.home-description {
+  color: #a89984;
+  font-size: 17px;
+  line-height: 1.5;
+  max-width: 40ch;
+}
+
+.planner {
+  margin-top: 34px;
+  padding: 28px;
+  background: #1c1614;
+  border: 1px solid #3a2f28;
+  border-left: 3px solid #e0a339;
+}
+
+.choice-row {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #3a2f28;
+  padding-bottom: 0;
+}
+
+.choice {
+  padding: 10px 16px;
+  background: transparent;
+  font-family: "SF Mono", "Courier New", monospace;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.choice:hover {
+  color: #f2ece2;
+}
+
+.choice.active {
+  background: transparent;
+  color: #e0a339;
+  border-bottom: 2px solid #e0a339;
+}
+
+.launch-button {
+  width: 100%;
+  margin-top: 28px;
+  padding: 16px;
+  background: #e0a339;
+  color: #14100f;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.launch-button:hover {
+  background: #f0b652;
+}
+
